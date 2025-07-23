@@ -77,17 +77,52 @@ button:hover{
 .flowers:hover{
     
 }
+.gulap h1 {
+    font-size: 50px;
+}
+.flower-store{
+    margin-top: 90px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.gulap{
+    margin-left: 40px;
+    margin-top: -200px;
+}
+.png{
+    margin-top: 90px;
+}
+.box {
+  position: relative;
+}
+.ring{
+    top: -700px;
+    margin-left: 340px;
+    
+    
+}
 @media screen and (max-width:576px) {
-    .list{
+    .list,.ring{
         display: none;
     }
-    .banner-conteiner{
+    .banner-conteiner, .flower-store{
         flex-direction: column;
         justify-content: center;
         width: 100%;
         
     }
-    .banner-conteiner{
+    .gulap{
+        margin-top: 50px;
+        
+    }
+    .gulap h1{
+        font-size: 40px;
+    }
+    .png img{
+        margin-left: 200px;
+    }
+    .banner-conteiner ,{
         flex-direction: column-reverse;
     }
     .ban-img{
