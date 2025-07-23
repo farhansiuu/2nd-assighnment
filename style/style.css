@@ -84,11 +84,16 @@ button:hover{
     .banner-conteiner{
         flex-direction: column;
         justify-content: center;
+        width: 100%;
         
     }
     .banner-conteiner{
         flex-direction: column-reverse;
     }
+    .ban-img{
+        margin-left: 230px;
+    }
+    
         .banner h1 {
     font-size: 40px;
 }
