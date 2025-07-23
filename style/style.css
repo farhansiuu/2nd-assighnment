@@ -23,9 +23,10 @@ gap: 30px;
 align-items: center;
 }
 .banner-conteiner{
+    justify-content: space-between;
+}
+.ban-img{
     align-items: center;
-    margin-top: 100px;
-    justify-content: space-evenly;
 }
 .banner h1 span{
     color: orangered;
@@ -36,7 +37,7 @@ align-items: center;
 .pera{
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
-    /* text-align: center; */
+    
 }
 .same span{
    color: orangered;
@@ -104,9 +105,7 @@ align-items: center;
 button:hover{
     background-color: orange;
 }
-.flowers:hover{
-    
-}
+
 .gulap h1 {
     font-size: 50px;
 }
@@ -132,11 +131,40 @@ button:hover{
     
     
 }
+.sub{
+   background-color: orangered;
+   color: white;
+   padding: 10px;
+   width: 15%;
+   margin-left: -5px;
+   cursor: pointer;
+}
+
+.join{
+     text-align: center;
+    align-items: center;
+    margin-top: 50px; 
+    
+}
+.join-conteiner{
+    margin-top: 70px;
+    background-image: url('../images/news-letter-bg.png');
+    height: 400px;
+    width: 100%; 
+}
+footer{
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+footer ul li{
+    margin-bottom: 20px;
+}
 @media screen and (max-width:576px) {
     .list,.ring{
         display: none;
     }
-    .banner-conteiner, .flower-store{
+    .banner-conteiner, .flower-store, footer{
         flex-direction: column;
         justify-content: center;
         width: 100%;
