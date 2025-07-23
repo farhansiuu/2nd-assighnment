@@ -36,9 +36,39 @@ align-items: center;
 .pera{
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
+    /* text-align: center; */
 }
 .same span{
    color: orangered;
+}
+.lastsme span{
+    color: orangered;
+}
+.lastsme{
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+.perain{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    text-align: center;
+}
+.first img{
+    border-radius: 10px;
+    gap: 30px;
+}
+.first{
+    
+}
+.last-img img{
+    border-radius: 10px;
+}
+.deal-img{
+    justify-content: space-evenly;
+}
+.snd{
+    gap: 30px;
 }
 .plants{
     font-size: 50px;
@@ -112,6 +142,21 @@ button:hover{
         width: 100%;
         
     }
+    .deal-img{
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        /* justify-items: center; */
+    
+    }
+     
+    }
+    .first{
+        /* width: 80%; */
+    }
+    .last-img img{
+        /* width: 90%; */
+    }
     .gulap{
         margin-top: 50px;
         
@@ -122,14 +167,14 @@ button:hover{
     .png img{
         margin-left: 200px;
     }
-    .banner-conteiner ,{
+    .banner-conteiner {
         flex-direction: column-reverse;
     }
     .ban-img{
         margin-left: 230px;
     }
     
-        .banner h1 {
+ .banner h1 {
     font-size: 40px;
 }
 .lily{
@@ -142,9 +187,9 @@ button:hover{
     padding: 10px;
     margin: 0;
 }
-}
+
 @media screen and (min-width:576px) and (max-width:992px) {
-    .lily{
+    .lily, .deal-img{
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
