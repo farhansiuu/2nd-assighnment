@@ -37,6 +37,46 @@ align-items: center;
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
 }
+.same span{
+   color: orangered;
+}
+.plants{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 90px;
+    display: grid;
+ 
+    
+}
+.lily{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.flowers h3{
+    font-size: 22px;
+}
+.flowers p{
+    font-size: 22px;
+}
+.lily{
+    gap: 50px;
+}
+.btn{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+  width: 70%;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+}
+.flowers:hover{
+    
+}
 @media screen and (max-width:576px) {
     .list{
         display: none;
@@ -52,4 +92,20 @@ align-items: center;
         .banner h1 {
     font-size: 40px;
 }
+.lily{
+    
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.lily{
+    justify-items: stretch;
+    padding: 10px;
+    margin: 0;
+}
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .lily{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
 }
