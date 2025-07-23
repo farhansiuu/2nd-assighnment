@@ -22,8 +22,34 @@ list-style: none;
 gap: 30px;
 align-items: center;
 }
+.banner-conteiner{
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+.banner h1 span{
+    color: orangered;
+}
+.banner h1 {
+    font-size: 65px;
+}
+.pera{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
 @media screen and (max-width:576px) {
     .list{
         display: none;
     }
+    .banner-conteiner{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .banner-conteiner{
+        flex-direction: column-reverse;
+    }
+        .banner h1 {
+    font-size: 40px;
+}
 }
